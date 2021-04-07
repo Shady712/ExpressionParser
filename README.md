@@ -9,3 +9,6 @@ This code is the implementation of mathematical expressions parser (expression.p
 
 # Exceptions
 This code adds specific exceptions for expressions and parser. For example, if input string for parser is incorrect then human-readable exception is thrown. The exception's message shows the positions and the type of the error (invalid variable name, invalid function, etc.). Some other operations added (abs, sqrt, ...). Evaluation exceptions are implemented and checked in the specified classes too.
+
+# Generic
+This code is the implementation of mathematical expressions and expression parser with usage of java generics. Generic tabulator is the class which calculates the value of the expression in different types (integer, float, byte, etc.) in different ranges of variables' values. The version of parser based on generics is also implemented.
