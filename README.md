@@ -12,3 +12,6 @@ This code adds specific exceptions for expressions and parser. For example, if i
 
 # Generic
 This code is the implementation of mathematical expressions and expression parser with usage of java generics. Generic tabulator is the class which calculates the value of the expression in different types (integer, float, byte, etc.) in different ranges of variables' values. The version of parser based on generics is also implemented.
+
+# General principles
+All the code follows the rule of encapsulation: no undesirable changes in random parts of the program are available. The common code is moved to parent's class (if such exists), for example: BinaryOperator, UnaryOperator, etc. The implementation is based on java classes and, therefore, objective-oriented programming methods.
